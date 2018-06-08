@@ -6,7 +6,12 @@ import {HeaderComponent} from './components/header/header.component';
 	imports: [
 		CommonModule
 	],
-	declarations: [HeaderComponent]
+	declarations: [
+		HeaderComponent
+	],
+	exports: [
+		HeaderComponent
+	]
 })
-export class SharedModuleModule {
+export class SharedModule {
 }
