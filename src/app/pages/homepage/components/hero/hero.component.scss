@@ -1,0 +1,27 @@
+@import '../../../../../sass/variables';
+
+.hero-container {
+	height: 342px;
+	border-bottom: 1px solid $border-white;
+}
+
+.hero-grid{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.grey-text{
+	color: #999;
+	font-size: 15px;
+	font-weight: 200;
+	line-height: 25px;
+}
+
+.hero-text-wrapper{
+	width: 460px;
+}
+
+.kitty > img{
+	width: 240px;
+}
