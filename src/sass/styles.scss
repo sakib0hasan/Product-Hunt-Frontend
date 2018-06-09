@@ -100,3 +100,35 @@ a{
 	padding-bottom: 15px;
 	border-bottom: 1px solid #e8e8e8;
 }
+
+.item{
+	border-bottom: 1px solid $border-white;
+	padding: 15px;
+	height: 80px;
+	display: flex;
+	flex-direction: row;
+}
+.item-meta{
+	display: flex;
+	flex-direction: column;
+}
+.item-title{
+	line-height: 32px;
+	font-weight: 300;
+	font-size: 20px;
+}
+.item-description{
+	line-height: 20px;
+	font-weight: 400;
+	color: $title-gray;
+	font-size: 13px;
+}
+.show-more{
+	line-height: 16px;
+	color: $title-gray;
+	cursor: pointer;
+	display: block;
+	text-align: center;
+	padding: 15px;
+	font-size: 11px;
+}
